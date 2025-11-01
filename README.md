@@ -1,5 +1,3 @@
-### ✅ `README.md`
-
 # 🗡️ Snipers Bot
 
 A comprehensive Discord bot for managing scanlation teams with contracts, economy, casino games, and entertainment features. Built with `discord.py` and PostgreSQL.
