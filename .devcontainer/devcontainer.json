@@ -1,0 +1,34 @@
+{
+  "name": "Snipers Bot (Python + PostgreSQL)",
+  "dockerComposeFile": "docker-compose.dev.yml",
+  "service": "bot",
+  "workspaceFolder": "/workspace/Snipers-bot",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt && apt-get update && apt-get install -y postgresql-client",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "timonwong.shell-command"
+      ]
+    }
+  },
+  "forwardPorts": [5432],
+  "remoteUser": "vscode",
+  "remoteEnv": {
+    "DISPLAY": "${localEnv:DISPLAY}",
+    "DB_HOST": "localhost"
+  }
+}
