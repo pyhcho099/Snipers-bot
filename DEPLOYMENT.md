@@ -328,7 +328,7 @@ Now try `/daily` in Discord!
 ## ❓ Need Help?
 
 - Open an **Issue** on GitHub
-- Email: your-email@example.com
+- Email: loremipsummangaka.pyhcho@proton.me
 - Join our Discord support server (link)
 
 ---
