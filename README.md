@@ -368,4 +368,3 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ---
 
 **Made with ❤️ by the Snipers Team**
-```
